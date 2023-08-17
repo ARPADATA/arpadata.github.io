@@ -1,0 +1,225 @@
+#logo {
+  max-width: 210px;
+  margin-right: 3px;
+  display: inline-block;
+}
+
+@media (max-width: 992px) {
+  #mainNav {
+    border-color: transparent;
+    background-color: #000623;
+  }
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  padding: 8px 10px;
+  color: #002a98;
+  background-color: #33ff00;
+}
+
+section.features .feature-item i {
+  font-size: 80px;
+  display: block;
+  margin-bottom: 15px;
+  background: linear-gradient(to left, #0038ff, #42ff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section.features {
+  background-image: linear-gradient( 288deg, rgb(0,52,157) 1.5%, rgb(0,24,51) 91.6% );
+}
+
+#site-portafolio {
+}
+
+section.features h3 {
+  color: #42ff00;
+}
+
+#parrafo-service {
+  color: #00e4c9;
+  font-family: 'JetBrains Mono';
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h6, .h6 {
+  font-family: "JetBrains Mono","Helvetica","Arial","sans-serif";
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+h4 {
+  font-family: 'Anonymous Pro';
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+#sobre {
+  position: relative;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+    color: #00d1ff;
+  }
+}
+
+#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+  color: #00ff94;
+}
+
+#mainNav .navbar-brand {
+  font-family: "Catamaran","Helvetica","Arial","sans-serif";
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+a:hover, a:focus {
+  color: #00ff19;
+}
+
+:root {
+  --bs-breakpoint-xs: 0;
+  --bs-breakpoint-sm: 360px;
+  --bs-breakpoint-md: 768px;
+  --bs-breakpoint-lg: 992px;
+  --bs-breakpoint-xl: 1200px;
+  --bs-breakpoint-xxl: 1400px;
+}
+
+a:hover {
+  --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
+}
+
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: smaller;
+  font-weight: var(--bs-nav-link-font-weight);
+  text-decoration: none;
+  background: none;
+  border: 0;
+  color: #42ff00;
+}
+
+header.masthead {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: #fff;
+  background-image: linear-gradient(rgba(0,87,255,0.73), rgba(0,255,117,0.68)), url("../../assets/img/001.jpg");
+  background-repeat: no-repeat;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-family: 'Anonymous Pro';
+}
+
+#promo {
+  text-align: left;
+}
+
+.text-primary {
+  color: #ffffff;
+}
+
+#portafolio {
+  background-image: linear-gradient( 114deg, rgb(0,48,143) 40.0%, rgb(0,228,178) 60.0% );
+}
+
+#contacto {
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #000033;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+  background-color: #ededed;
+}
+
+@media (max-width: 360px) {
+  .p-sm-5 {
+    padding: 1rem !important;
+    background-color: #ffffff;
+  }
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active {
+  color: #003380;
+  border-color: #005ce4;
+  background-color: #005ce4;
+}
+
+#mainNav {
+  border-color: rgba(255,0,0,0.05);
+  background-color: #000623;
+  transition: all .35s;
+  font-family: "Catamaran","Helvetica","Arial","sans-serif";
+  font-weight: 200;
+  letter-spacing: 1px;
+  height: 70px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #00e4c9;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #00fff0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-link {
+    transition: none;
+  }
+}
+
+.bg-primary {
+  background-image: linear-gradient( 200deg, rgb(1,202,111) 40.0%, rgb(0,222,104) 60.0% );
+}
+
+body {
+  font-family: "JetBrains Mono","Helvetica","Anonymous Pro","JetBrains Mono";
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+  color: #0029ba;
+  font-size: xx-large;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width);
+  color: #33ff00;
+}
+
+@media (min-width: 768px) {
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+    padding: 10px;
+  }
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.btn-xl {
+  font-size: 11px;
+  padding: 15px 45px;
+}
+
